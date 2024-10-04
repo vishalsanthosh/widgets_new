@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_new/datepicker.dart';
 import 'package:widgets_new/slide.dart';
+import 'package:widgets_new/switch.dart';
 import 'package:widgets_new/timepicker.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
       ),
-      home: DatePickerExp(),
+      home: SwitchKey(),
     );
   }
 }
